@@ -162,3 +162,4 @@ include hardware/samsung_slsi-linaro/config/BoardConfig9830.mk
 
 # Call the proprietary setup
 include vendor/samsung/universal9830-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
